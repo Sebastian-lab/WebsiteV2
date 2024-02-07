@@ -12,6 +12,7 @@ body{
 #header{
     position:relative;
     background: #93B5C6;
+    outline: 3px black;
     margin: 0%;
     padding: 0.5%;
     height: 10vh;
@@ -21,27 +22,37 @@ body{
 #aboutMe{
     float: left;
     background: #93B5C6;
+    outline: 3px black;
     margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 50vh;
     height: 7vh;
 }
 
 #picture{
     float: right;
-    background: #93B5C6;
+    background: #272D2D;
+    outline: 3px black;
     margin-top: 5%;
-    margin-right: 2%;
+    margin-right: 5%;
     width: 75vh;
     height: 70vh;
 }
+
+.padding{
+width:65vh;
+height:60vh;
+padding: 5vh;
+filter: brightness(80%);
+} 
 
 
 #text{
     /* float: left; */
     background: #93B5C6;
+    outline: 3px black;
     margin-top: 15%;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 50vh;
     height: 40vh;
 }
