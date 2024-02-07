@@ -10,6 +10,7 @@ body{
 }
 
 
+
 #header{
     position:relative;
     background: #272D2D;
@@ -19,54 +20,46 @@ body{
     height: 10vh;
 }
 
-#bodyLeft{
-    position:relative;
-    background: #05f043;
-    width: 110vh;
-    height: 60vh;
-}
 
 #aboutMe{
     background: #cf5e18;
     outline: 3px black;
     margin-top: 10%;
     margin-left: 5%;
-    width: 50vh;
-    height: 7vh;
+    width: 80%;
+    height: 10%;
 }
 
 #text{
     /* float: left; */
-    background: #93B5C6;
+    background: #c6b893;
     outline: 3px black;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
-    width: 50vh;
-    height: 40vh;
+    width: 80%;
+    height: 50%;
 }
 
-
-#bodyRight{
-    position:relative;
-    background: #cd0e9a;
-    width: 15vh;
-    height: 60vh;
-}
 
 #picture{
     background: #272D2D;
     outline: 3px black;
-    margin-top: 5%;
-    margin-right: 5%;
-    width: 75vh;
-    height: 70vh;
+    margin: 5%;
 }
 
 .padding{
-width:65vh;
-height:60vh;
-padding: 5vh;
+margin-left: 30%;
+width: 40%;
+height: 90%;
 filter: brightness(80%);
 } 
 
-
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 110vh 67vh; 
+    border: 1px solid black; 
+    height: 70vh; 
+} 
+.grid-child-element { 
+    border: 1px solid red; 
+}
