@@ -1,0 +1,47 @@
+
+
+body{
+    position:relative;
+     background: #272D2D;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+
+#header{
+    position:relative;
+    background: #93B5C6;
+    margin: 0%;
+    padding: 0.5%;
+    height: 10vh;
+}
+
+
+#aboutMe{
+    float: left;
+    background: #93B5C6;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 50vh;
+    height: 7vh;
+}
+
+#picture{
+    float: right;
+    background: #93B5C6;
+    margin-top: 5%;
+    margin-right: 2%;
+    width: 75vh;
+    height: 70vh;
+}
+
+
+#text{
+    /* float: left; */
+    background: #93B5C6;
+    margin-top: 15%;
+    margin-left: 2%;
+    width: 50vh;
+    height: 40vh;
+}
