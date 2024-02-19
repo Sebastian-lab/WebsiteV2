@@ -2,6 +2,11 @@ html{
     scroll-behavior: smooth;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 .fade-in {
     animation: fadeIn ease-in 1;
     animation-duration: .3s;
